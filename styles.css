@@ -1,7 +1,10 @@
 html,
 body {
+    background-color: black;
+    color: white;
+
     font-family: monospace;
-   
+
     height: 100%;
     overflow: hidden;
     margin: 0;
@@ -12,11 +15,13 @@ h2 {
     margin: 0;
 }
 
-input,
 textarea {
     width: 100%;
     box-sizing: border-box;
     flex: 1;
+
+    background-color: black;
+    color: white;
 }
 
 body {
