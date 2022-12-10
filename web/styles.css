@@ -1,0 +1,34 @@
+html,
+body {
+    font-family: monospace;
+   
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.heightFill {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+    gap: 0.5em;
+}
